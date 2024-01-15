@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC3C3C3C"
+    android:padding="8dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Dommage"
+            android:layout_marginBottom="6dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:id="@+id/tvArtist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Roselia et rodolphe"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
